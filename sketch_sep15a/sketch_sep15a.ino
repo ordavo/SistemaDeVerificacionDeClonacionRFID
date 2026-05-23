@@ -11,8 +11,8 @@
 Adafruit_PN532 nfc(SDA_PIN, SCL_PIN);
 Servo servoMotor;
 
-const char* ssid = "ALVAREZ";
-const char* password = "CAMILO2003";
+const char* ssid = "";
+const char* password = "";
 
 // Dirección del servidor FastAPI
 const char* serverName = "http://192.168.1.7:8000/verificar/";
