@@ -5,10 +5,10 @@ const sql = require('mssql');
 
 // Configura tu conexión
 const config = {
-  user: 'sa',
-  password: 'Guadual1t0',
+  user: '',
+  password: '',
   server: 'localhost',
-  database: 'DESKTOP-UOJSRMF',
+  database: '',
   options: { trustServerCertificate: true }
 };
 // 📂 routes/usuarios.js
@@ -27,7 +27,7 @@ router.post('/add', async (req, res) => {
   }
 });
 
-// ✅ Ruta para obtener el siguiente ID disponible
+//  Ruta para obtener el siguiente ID disponible
 router.get('/next-id', async (req, res) => {
   try {
     await sql.connect(config);
