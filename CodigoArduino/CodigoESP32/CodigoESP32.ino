@@ -8,12 +8,12 @@
 #include <vector>
 
 /********** WiFi **********/
-const char* WIFI_SSID     = "ALVAREZ";
-const char* WIFI_PASSWORD = "CAMILO2003";
+const char* WIFI_SSID     = "";
+const char* WIFI_PASSWORD = "";
 
 /********** Servidor **********/
-const char* SERVER_HOST = "192.168.1.7";
-const uint16_t SERVER_PORT = 8000;
+const char* SERVER_HOST = "";
+const uint16_t SERVER_PORT = ;
 const char* URL_NONCE  = "/api/nonce";
 const char* URL_VERIFY = "/api/verify";
 
